@@ -18,13 +18,18 @@
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
+  list-style-type: none;
 }
 
 /* Change background on mouse-over */
 .navbar a:hover {
   background: #ddd;
   color: black;
+}
 
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
 }
 
 /* Main content */
@@ -90,6 +95,16 @@
     height: 200px;
     margin-right: 20px;
   }
+
+  #relative {
+    position: relative;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #eee;
+  }
+  
   
   footer{
     position: fixed;
