@@ -2,12 +2,11 @@
 /* The navigation bar */
 .navbar {
   overflow: hidden;
-
   background-color: #ffffff;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  padding: 20px;
+  padding: 15px;
 }
 
 /* Links inside the navbar */
@@ -78,15 +77,18 @@
     color: #d21034;
   }
   
-  .container {
-    width: 960px; /* width that was given in homework */
-    margin: 0 auto; /* center image */
-    background-color: #ffffff;
-    border: 1px sold;
-    overflow: scroll;
-    clear: both;
-    margin-top: 116px;
-  }
+.container {
+  width: 960px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+  
+.wrapper {
+  width: 960px;
+  padding: 20px;
+  margin: 0 auto;
+}
 
   
   #bio-image {
