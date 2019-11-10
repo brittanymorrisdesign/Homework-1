@@ -1,0 +1,102 @@
+   /* Brittany Morris' Portfolio Site */
+   nav {
+    font-size: 1.5em;
+    overflow: hidden;
+    font-size: 1em;
+   }
+   
+   .myNav a{
+    text-align: center;
+    text-decoration: none;
+   }
+
+   nav ul {
+     list-style-type: none;
+     float:right;
+   }
+  
+  nav ul li{
+      margin: 20px 5px;
+      padding-right:10px;
+      display: inline;
+      float: left;
+  }
+
+.myName {
+  float: left;
+  background: #333;
+  color: #eee;
+  font-size: 1.5em;
+  margin-left: 6px;
+  display: inline-block;
+  width: 250px;
+  height: 100px;
+}
+
+   body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background-image: url("../images/handmadepaper_@2X.png");
+  }
+  
+  header {
+    background: #ffffff;
+    height: 12%;
+  }
+  
+  h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  a {
+    color: #d21034;
+  }
+  
+  .container {
+    width: 960px; /* width that was given in homework */
+    margin: 0 auto; /* center image */
+    background-color: #ffffff;
+    border: 1px sold;
+    overflow: scroll;
+    clear: both;
+    margin-top: 116px;
+  }
+
+  
+  #bio-image {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  
+  footer{
+    position: fixed;
+    left: 0
+    bottom: 0;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 0;
+    padding-top: 50px;
+    height: 35px
+    font-size: small;
+    border-top: 4px solid #4aaaa5;
+    background: #ffffff;
+  }
+
+     /* Portfolio Page */
+
+
+
+     /* Contact Page */
