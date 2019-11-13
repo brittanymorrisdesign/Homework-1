@@ -1,5 +1,7 @@
 /* Brittany Morris' Portfolio Site */
-
+* {
+  box-sizing: border-box;
+}
 /* The navigation bar */
 .navbar {
   overflow: hidden;
@@ -77,7 +79,7 @@ h2 {
 
 #bio {
   width: 960px;
-  height: 250px;
+  height: 290px;
   border: 1px solid #D3D3D3;
   padding: 20px;
   margin: 120px auto;
